@@ -1,6 +1,6 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-import ExampleComponent from './components/ExampleComponent.vue';
+import Main from './components/Main.vue';
 
 Vue.use(VueRouter);
 
@@ -8,7 +8,7 @@ const router = new VueRouter({
     routes: [
         {
             path: "/",
-            component: ExampleComponent,
+            component: Main,
             meta:{
                 forVisitors: true
             }
